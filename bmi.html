@@ -1,0 +1,37 @@
+<html>
+    <head>
+    <title>BMI Calculator</title>
+    <link href="style/style.css?v=2307011150" rel="stylesheet" type="text/css"/>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div id="mainDiv">
+    <h1 id="mainHeader">Basic BMI Calculator</h1>
+    <hr>
+    <form>
+        <table id="bmiTbl">
+            <tr>
+                <td><label for="height">Height: </label></td>
+                <td><input type="number" id="height" name="height" max="999" min="0" value="100"/> <small>(cm)</small></td>
+            </tr>
+            <tr>
+                <td><label for="weight">Weight </label></td>
+                <td><input type="number" id="weight" name="weight" max="999" min="0"/> <small>(kg)</small></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" value="Calculate" id="calcBtn"/></td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+    <div id="bmiResultDiv" style="display:none;">
+        <span id="bmiResultTxt"></span>
+        <img id="bmiResultImg" src="img/human_isometric.png" alt="BMI Result image"/>
+    </div>
+    <div id="footer">
+        <strong style="background-color: red;">This results are not a medical exam! Always get information from doctors.</strong><br><br>
+        Created by Yiğit SOYKAN
+    </div>
+</div>
+</body>
+</html>

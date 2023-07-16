@@ -1,0 +1,9 @@
+body{font-family: Calibri; font-size: 16px; background-color: #f5fef7;}
+#mainDiv{margin: auto;background-color: #8fbc9c;max-width: 600px;margin: 0 auto;padding: 2px 4px;border: 1px solid #8fbc9c; border-radius: 15px;color: #fff;}
+#mainHeader{text-align: center;}
+#bmiTbl{margin: 0 auto;}
+#calcBtn{margin: 5px 0; background-color: #00a5c5; border: 1px solid #ffffff; border-radius: 5px; width: 150px; height: 28px; font-weight: bold; color: #fff;cursor: pointer;}
+#bmiResultDiv{height: 300px;}
+#bmiResultTxt{top: 70px; position: relative;}
+#bmiResultImg{float: right;}
+#footer{color:#fff; text-align: center;}
